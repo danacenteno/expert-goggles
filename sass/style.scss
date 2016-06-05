@@ -8,10 +8,6 @@
 */
 
 @import 'normalize';
-@import 'variables';
-@import 'header';
-@import 'front-page-styles';
-@import 'page-styles';
 @import 'typography';
 @import 'navigation';
 @import 'sidebar';
@@ -46,15 +42,8 @@ body {
 	width: 100%;
 }
 
-.hero {
-	background-image: url(https://unsplash.it/1600/800?image=723);
-	height: 100vh;
-	background-position: center center;
-	background-attachment: fixed;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+
+
 
 
 

@@ -29,7 +29,7 @@
         <?php the_content(); ?>
 
       <?php endwhile; // end the loop?>
-    </div> <!-- /,content -->
+    </div> <!-- /.content -->
 
     <?php //get_sidebar(); ?>
 
