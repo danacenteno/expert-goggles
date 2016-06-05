@@ -10,6 +10,7 @@
 @import 'normalize';
 @import 'variable';
 @import 'header';
+@import 'front-page-styles';
 @import 'typography';
 @import 'navigation';
 @import 'sidebar';
@@ -44,9 +45,20 @@ body {
 	width: 100%;
 }
 
+.hero {
+	background-image: url(https://unsplash.it/1600/800?image=615);
+	background-attachment:fixed;
+	margin: auto;
+	height: 100vh;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
-
-
+	h2 {
+		font-family: $displayFont;
+	}
+}
 
 
 

@@ -5,12 +5,16 @@ ul.menu {
 		display: inline;
 		margin-right: 10px;
 		a {
-			color: #333;
 			padding: 10px;
 			font-family: $baseFont;
 			font-weight: bolder;
 			text-transform: uppercase;
-			color: $teal;
+			color: #fff;
+			transition: all 0.2s linear;
+			&:hover {
+				color: $teal;
+				border-bottom: 3px solid #fff;
+			}
 		}
 	}
 }

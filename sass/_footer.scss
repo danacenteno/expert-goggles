@@ -1,3 +1,16 @@
 footer {
 	clear: both;
 }
+
+.bottom-footer {
+	background: $darkBlue;
+	color: white;
+	padding: 10px;
+
+	.container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: auto;
+	}
+}
