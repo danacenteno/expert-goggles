@@ -1,5 +1,5 @@
 header {
-	background: $darkBlue;
+	background: #fff;
 	padding: 5px;
 
 	.container {
@@ -8,13 +8,14 @@ header {
 		align-items: center;
 	
 		h1 {
-			font-size: 50px;
+			padding-left: 25px;
+			font-size: 20px;
 			font-family: $displayFont;
 			font-weight: bolder;
 			font-style: italic;
 			letter-spacing: 2px;
 			a {
-				color: white;
+				color: $darkBlue;
 				transition: color 0.3s linear;
 				&:hover {
 					color: $teal;
