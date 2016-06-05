@@ -1,0 +1,22 @@
+.intro-bar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: $darkBlue;
+	display:flex;
+	height: 50vh;
+	margin: auto;
+}
+
+.about-bar {
+	background-image: url(https://unsplash.it/1600/800?image=723);
+	background-attachment:fixed;
+	margin: auto;
+	height: 50vh;
+	padding: 20px;
+	display: flex;
+	font-size: 20px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

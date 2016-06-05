@@ -1,7 +1,9 @@
 <footer class="bottom-footer">
   <div class="container">
-    <p>&copy; Dana Centeno <?php echo date('Y'); ?></p>
-    <p>Powered by Wordpress</p>
+  	<div class="wrapper">
+	    <p>&copy; Dana Centeno <?php echo date('Y'); ?></p>
+	    <p>Powered by Wordpress</p>
+    </div>
   </div>
 </footer>
 

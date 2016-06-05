@@ -1,5 +1,5 @@
 header {
-	background: rgba(11,59,80,0.5);
+	background: $darkBlue;
 	padding: 5px;
 
 	.container {
@@ -10,11 +10,14 @@ header {
 		h1 {
 			font-size: 50px;
 			font-family: $displayFont;
+			font-weight: bolder;
+			font-style: italic;
+			letter-spacing: 2px;
 			a {
-				color: $darkBlue;
+				color: white;
 				transition: color 0.3s linear;
 				&:hover {
-					color: white;
+					color: $teal;
 				}
 			}
 		}

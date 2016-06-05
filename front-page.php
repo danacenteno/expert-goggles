@@ -14,27 +14,38 @@ get_header();
   </h2>
 </div>
 
-<div class="main">
+<main class="main">
   <div class="container">
+      <div class="intro-bar">
+        <div class="wrapper">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, culpa!</p>
+        </div>
+      </div>
 
-    <div class="content">
-      <?php // Start the loop ?>
-      <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-        <h2><?php the_title(); ?></h2>
-        <h3><?php the_field('subtitle_text'); ?></h3>
-        <p><?php the_field('bio'); ?></p>
-        <?php $image = get_field('bio_image'); ?>
+      <div class="about-bar">
+        <div class="wrapper">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aut aliquid deleniti ducimus quis quos nemo fugiat iusto consectetur. Ratione!</p>
+          <button>Read More</button>
+        </div>
+      </div>
 
-        <img src="<?php echo $image['sizes']['square'] ?>" alt="">
+      <div class="content">
+        <?php // Start the loop ?>
+        <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+          <h2><?php //the_title(); ?></h2>
+          <h3><?php the_field('subtitle_text'); ?></h3>
+          <p><?php the_field('bio'); ?></p>
+          <?php $image = get_field('bio_image'); ?>
 
-        <?php the_content(); ?>
+          <img src="<?php echo $image['sizes']['square'] ?>" alt="">
 
-      <?php endwhile; // end the loop?>
-    </div> <!-- /,content -->
+          <?php the_content(); ?>
 
+        <?php endwhile; // end the loop?>
+      </div> <!-- /,content -->
   </div> <!-- /.container -->
 
-</div> <!-- /.main -->
+</main> <!-- /.main -->
 
 <?php get_footer(); ?>
 

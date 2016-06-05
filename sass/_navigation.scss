@@ -10,10 +10,10 @@ ul.menu {
 			font-weight: bolder;
 			text-transform: uppercase;
 			color: #fff;
-			transition: all 0.2s linear;
+			transition: color 0.2s linear;
 			&:hover {
 				color: $teal;
-				border-bottom: 3px solid #fff;
+				border-bottom: 2px solid #fff;
 			}
 		}
 	}
