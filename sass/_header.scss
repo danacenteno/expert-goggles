@@ -1,0 +1,25 @@
+header {
+	background: $darkBlue;
+	padding: 20px;
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		h1 {
+			font-family: 'playfair display', serif;
+			letter-spacing: 2px;
+			align-self: flex-start;
+			text-transform: uppercase;
+			a {
+				color: white;
+			}
+		}
+	}
+}
+
+h2 {
+	font-family: 'playfair display';
+	font-style: italic;
+}

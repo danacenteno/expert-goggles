@@ -1,4 +1,13 @@
 .sidebar {
+	min-height: 100%;
+	padding: 20px;
+	width: 30%;
+	float: left;
+	background: $darkBlue;
+
+	ul {
+		margin: 0;
+		padding: 0;
 	width: 30%;
 	float: left;
 	ul {
