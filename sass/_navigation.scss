@@ -7,8 +7,10 @@ ul.menu {
 		a {
 			color: #333;
 			padding: 10px;
-			background: #333;
-			color: white;
+			font-family: $baseFont;
+			font-weight: bolder;
+			text-transform: uppercase;
+			color: $teal;
 		}
 	}
 }
