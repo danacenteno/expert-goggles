@@ -1,0 +1,45 @@
+//Blog Roll Styles
+
+.blog-hero {
+	height: 50vh;
+	background-image: url(images/north-america.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment:fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	h3 {
+		color: white;
+		font-family: $displayFont;
+		font-style: italic;
+		font-weight: bolder;
+		letter-spacing: 2px;
+		font-size: 90px;
+	}
+}
+
+.index-content {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	// margin: auto;
+
+	.entry-title {
+		font-size: 40px;
+		padding-bottom: 5px;
+		font-family: $displayFont;
+		border-bottom: 3px solid $teal;
+	}
+}
+
+article {
+	padding: 5%;
+	border: 5px solid $teal;
+	box-shadow: 1px 1px 5px dimGray;
+	border-bottom: none;
+}

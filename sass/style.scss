@@ -11,6 +11,7 @@
 @import 'variable';
 @import 'header';
 @import 'front-page-styles';
+@import 'index-styles';
 @import 'typography';
 @import 'navigation';
 @import 'sidebar';
@@ -52,17 +53,34 @@ body {
 }
 
 .hero {
-	background-image: url(https://unsplash.it/1600/800?image=615);
+	background-image: url(images/earthsurface.jpg);
 	background-attachment:fixed;
+	background-size: cover;
 	margin: auto;
 	height: 100vh;
 	padding: 20px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 
+	h1 {
+		font-size: 100px;
+		font-family: $displayFont;
+		font-weight: bolder;
+		font-style: italic;
+		letter-spacing: 2px;
+		border: 10px solid white;
+		padding: 4% 6%;
+		text-shadow: 1px 1px 1px dimGray;
+		margin-bottom: 0;
+		color: #fff;
+		}
+
 	h2 {
 		font-family: $displayFont;
+		color: $darkBlue;
+		text-shadow: 1px 1px 1px dimGray;
 	}
 }
 

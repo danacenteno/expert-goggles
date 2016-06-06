@@ -14,7 +14,7 @@ ul.menu {
 			transition: color 0.2s linear;
 			&:hover {
 				color: $teal;
-				border-bottom: 2px solid #fff;
+				border-bottom: 2px solid $darkBlue;
 			}
 		}
 	}

@@ -7,6 +7,10 @@
 get_header();  
 ?>
 <div class="hero">
+  <h1>
+      <?php bloginfo( 'name' ); ?>
+  </h1>
+
   <h2>
     <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
       <?php bloginfo( 'description' ); ?>
@@ -24,7 +28,7 @@ get_header();
 
       <div class="about-bar">
         <div class="wrapper">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aut aliquid deleniti ducimus quis quos nemo fugiat iusto consectetur. Ratione!</p>
+          <p>If you will not be turned, you will be destroyed. Young fool...only now, at the end, do you understand. Your feeble skills are no match for the power of the dark side. You have paid the price for your lack of vision. Father, please. Help me. Now, young Skywalker...you will die.</p>
           <button>Read More</button>
         </div>
       </div>

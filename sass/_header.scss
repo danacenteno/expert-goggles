@@ -1,19 +1,15 @@
 header {
 	background: #fff;
-	padding: 5px;
+	padding: 10px;
 
 	.container {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 	
-		h1 {
-			padding-left: 25px;
-			font-size: 20px;
-			font-family: $displayFont;
-			font-weight: bolder;
-			font-style: italic;
-			letter-spacing: 2px;
+		.fa-rocket {
+			padding-left: 20px;
+			font-size: 40px;
 			a {
 				color: $darkBlue;
 				transition: color 0.3s linear;
@@ -22,13 +18,5 @@ header {
 				}
 			}
 		}
-	}
-}
-
-
-h2 {
-	font-family: $baseFont;
-	a {
-		color: $teal;
 	}
 }
