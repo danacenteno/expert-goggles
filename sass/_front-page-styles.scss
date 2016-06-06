@@ -2,7 +2,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: $darkBlue;
+	background: $darkBlue;
+	color: #fff;
 	display:flex;
 	height: 50vh;
 	margin: auto;
@@ -20,9 +21,24 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 
 	p {
 		color: white;
-		font-family: $baseFont;
+		text-shadow: 1px 1px 1px dimGray;
+	}
+
+	button {
+		font-size: 15px;
+		border: none;
+		color: #fff;
+		padding: 1% 4%;
+		border-radius: 50px;
+		background: $teal;
+		transition: all 0.3s linear;
+		&:hover {
+			background: $darkBlue;
+			color: $teal;
+		}
 	}
 }

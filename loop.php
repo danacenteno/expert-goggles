@@ -15,7 +15,7 @@
 <?php // if there are posts, Start the Loop. ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
-	<?php echo get_the_post_thumbnail( $page->ID,'medium' ); ?>
+	<?php echo get_the_post_thumbnail( $page->ID,'large' ); ?>
 
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<h2 class="entry-title">

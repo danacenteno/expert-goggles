@@ -6,16 +6,21 @@
 
 get_header();  ?>
 
-<div class="main">
-  <div class="container">
-  <div class="wrapper">
-	    <?php // Start the loop ?>
-	    <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+<div class="page-hero">
+	<h2>
+		<?php the_title(); ?>
+	</h2>
+</div>
 
-	      <h2><?php the_title(); ?></h2>
-	      <?php the_content(); ?>
-
-	    <?php endwhile; // end the loop?>
+<div class="full-main">
+  <div class="full-container">
+	<div class="wrapper">
+		<div class="float-box">
+		    <?php // Start the loop ?>
+		    <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+		      <?php the_content(); ?>
+		    <?php endwhile; // end the loop?>
+	    </div>
     </div>
   </div> <!-- /.container -->
 </div> <!-- /.main -->

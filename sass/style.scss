@@ -10,6 +10,7 @@
 @import 'normalize';
 @import 'variable';
 @import 'header';
+@import '_full-page-styles';
 @import 'front-page-styles';
 @import 'index-styles';
 @import 'typography';
@@ -57,7 +58,7 @@ body {
 	background-attachment:fixed;
 	background-size: cover;
 	margin: auto;
-	height: 100vh;
+	height: 90vh;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
@@ -70,8 +71,8 @@ body {
 		font-weight: bolder;
 		font-style: italic;
 		letter-spacing: 2px;
-		border: 10px solid white;
-		padding: 4% 6%;
+		border-bottom: 7px solid white;
+		padding: 2% 7%;
 		text-shadow: 1px 1px 1px dimGray;
 		margin-bottom: 0;
 		color: #fff;
@@ -79,7 +80,7 @@ body {
 
 	h2 {
 		font-family: $displayFont;
-		color: $darkBlue;
+		color: #fff;
 		text-shadow: 1px 1px 1px dimGray;
 	}
 }

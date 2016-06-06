@@ -28,7 +28,7 @@ get_header();
 
       <div class="about-bar">
         <div class="wrapper">
-          <p>If you will not be turned, you will be destroyed. Young fool...only now, at the end, do you understand. Your feeble skills are no match for the power of the dark side. You have paid the price for your lack of vision. Father, please. Help me. Now, young Skywalker...you will die.</p>
+          <p>The main entrance to the control bunker's on the far side of that landing platform. This isn't gonna be easy. Hey, don't worry. Chewie and me got into a lot of places more heavily guarded than this. What's he saying? He says there's a secret entrance on the other side of the ridge.</p>
           <button>Read More</button>
         </div>
       </div>
@@ -44,6 +44,7 @@ get_header();
           <img src="<?php echo $image['sizes']['square'] ?>" alt="">
 
           <?php the_content(); ?>
+          <?php get_post(); ?>
 
         <?php endwhile; // end the loop?>
       </div> <!-- /,content -->
