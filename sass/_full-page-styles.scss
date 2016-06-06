@@ -1,3 +1,6 @@
+//general full page styles
+// this applies to both about and contact pages
+
 .page-hero {
 	height: 50vh;
 	background-image: url(images/starcloud.jpg);
@@ -10,7 +13,7 @@
 	align-items: center;
 
 	h2 {
-		color: white;
+		color: #fff;
 		font-style: italic;
 		font-weight: bolder;
 		letter-spacing: 2px;
@@ -36,7 +39,11 @@
 	}
 }
 
-//contact form!!!
+blockquote {
+	color: $teal;
+}
+
+//contact form for contact page!!!
 
 form p {
 	color: $darkBlue;

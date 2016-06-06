@@ -1,9 +1,16 @@
 <footer class="bottom-footer">
+	<div class="soc-med">
+		<div class="wrapper">
+			<a href=""><i class="fa fa-twitter"></i></a>
+			<a href=""><i class="fa fa-facebook"></i></a>
+			<a href=""><i class="fa fa-instagram"></i></a>
+			<a href=""><i class="fa fa-dribbble"></i></a>
+			<a href=""><i class="fa fa-behance"></i></a>
+		</div>
+	</div>
   <div class="container">
-  	<div class="wrapper">
-	    <p>&copy; Dana Centeno <?php echo date('Y'); ?></p>
-	    <p>Powered by Wordpress</p>
-    </div>
+    <p>&copy; Dana Centeno <?php echo date('Y'); ?></p>
+    <p>Powered by Wordpress</p>
   </div>
 </footer>
 

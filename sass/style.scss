@@ -66,8 +66,7 @@ body {
 	align-items: center;
 
 	h1 {
-		font-size: 100px;
-		font-family: $displayFont;
+		font-size: 110px;
 		font-weight: bolder;
 		font-style: italic;
 		letter-spacing: 2px;
@@ -79,9 +78,20 @@ body {
 		}
 
 	h2 {
-		font-family: $displayFont;
+		color: $darkBlue;
+		text-shadow: 1px 1px 1px dimGray; 
+	}
+
+	.fa-chevron-down {
+		position: relative;
+		top: 25px;
 		color: #fff;
-		text-shadow: 1px 1px 1px dimGray;
+		font-size: 40px;
+		transition: all 0.3s linear;
+		&:hover {
+			color: $teal;
+			transform: scale(1.2);
+		}
 	}
 }
 

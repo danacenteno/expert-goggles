@@ -2,12 +2,35 @@ footer {
 	clear: both;
 }
 
-.bottom-footer {
+.bottom-footer .container {
 	background: $darkBlue;
 	color: white;
 	padding: 10px;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
 	margin: auto;
+
+	p {
+		margin: 2%;
+	}
+}
+
+.soc-med {
+	background: $darkBlue;
+}
+
+.soc-med .wrapper {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+
+	i {
+		color: #fff;
+		font-size: 20px;
+		padding: 10px;
+		transition: color 0.3s linear;
+		&:hover {
+			color: $teal;
+		}
+	}
 }

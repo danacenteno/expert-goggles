@@ -16,7 +16,7 @@
 
 <header>
   <div class="container">
-    <a href="<?php echo home_url( '/' ); ?>"><i class="fa fa-rocket" aria-hidden="true"></i></a>
+    <a href="<?php echo home_url( '/' ); ?>"><i class="fa fa-rebel" aria-hidden="true"></i></a>
 
     <?php wp_nav_menu( array(
       'container' => false,
