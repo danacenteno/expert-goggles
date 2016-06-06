@@ -22,12 +22,9 @@
 }
 
 .index-content {
-	width: 50%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-end;
-	align-items: flex-end;
-	// margin: auto;
+	margin: 50px auto;
 
 	.entry-title {
 		font-size: 40px;
@@ -35,9 +32,17 @@
 		font-family: $displayFont;
 		border-bottom: 3px solid $teal;
 	}
+
+	p {
+		font-size: 15px;
+	}
+
+	img {
+	}
 }
 
 article {
+	// max-height: 500px;
 	padding: 5%;
 	border: 5px solid $teal;
 	box-shadow: 1px 1px 5px dimGray;
